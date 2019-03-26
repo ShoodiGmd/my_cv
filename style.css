@@ -1,0 +1,93 @@
+body{
+  display: block;
+  background-color: lightblue ;
+  margin-left: 10%;
+  margin-right: 10%;
+  filter: drop-shadow(1px 20px 20px black);
+
+}
+
+header{
+  height: 300px;
+  background-image: url("king_bdd-181.jpg");
+  background-size: cover;
+  display: grid;
+}
+
+h2.name{
+  color : #D02A3C ;
+  font-size: 80px;
+  justify-self : center ;
+}
+article{
+  background-color: white;
+  display: block;
+}
+.profile{
+  height: 700px;
+  padding: 5%;
+  display: flex;
+  justify-items : center ;
+  align-items:  center;
+  background-image: url("49a85ed0109699aee90e08e2405983b3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.avatar{
+  height: 70%;
+  width: 100%;
+  box-shadow: 10px 10px 79px 4px ;
+  background-image: url("Rog-Logo-4k-wallpapers-2048x2048.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.summary{
+  height: 70%;
+  width: 100%;
+  color: white;
+  padding-left: 5%;
+  font-size: 30px;
+}
+.education{
+  height: 500px;
+  padding : 3%;
+  display: flex;
+  align-items: center;
+  justify-items : center;
+  background-image: url("king_bdd-181.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color : darkred;
+}
+.box{
+  padding: 3%;
+  box-shadow: 4px 5px 90px -3px black;
+  display: grid;
+  grid-template-columns: 1fr 4fr 4fr ;
+  grid-auto-rows: 1fr 4fr;
+  grid-template-areas:
+  "title . . "
+  ". col1 col2";
+  justify-items : center;
+  align-items: center;
+  height: 70%;
+  width: 80%;
+  background-color: gray;
+}
+
+.edu1{
+  grid-area: col1;
+  border: dashed darkred thin;
+  padding: 20px;
+}
+.edu2{
+  grid-area: col2;
+  border: dashed darkred thin;
+  padding: 20px;
+}
+.education h1{
+  grid-area: title ;
+
+}
